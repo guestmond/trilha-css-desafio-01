@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #332c2c;
+    background-color: #000000;
+}
+
+header.banner {
+    background: url('../images/banner.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header .banner-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header .banner-content p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  header .banner-content button {
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  header .banner-content button:hover {
+    background-color: #005f99;
+  }
+
+  main {
+    padding: 20px;
+  }
+  
+  section#course-content {
+    margin-bottom: 30px;
+  }
+  
+  .modules-list .module {
+    background: #e3f2fd;
+    border-left: 5px solid #0077b6;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  /* Seção "Transforme o Mundo" */
+  section#transform-world {
+    text-align: center;
+    background: url('../images/woman-code.png') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 120px 80px;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    min-height: 500px;
+    min-width: 363px;
+  }
+
+  section#professional-challenges {
+    text-align: center;
+  }
+  
+  section#professional-challenges img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  section#professional-challenges p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+ 
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  
+  footer a {
+    color: #00b4d8;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer img.dio-logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+  
+  }
